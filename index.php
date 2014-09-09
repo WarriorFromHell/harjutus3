@@ -44,6 +44,8 @@ charset=utf-8">
     $lastName = "J6emets";
     $fullName = $firstName . " " . $lastName;
 
+    $test = "testimine";
+
     echo "<li>" . $student1 . "</li>" ;
     echo "<li>" . $student2 . "</li>" ;
     echo "<li>" . $student3 . "</li>" ;
@@ -51,6 +53,7 @@ charset=utf-8">
     echo "<li>" . $firstName . "</li>" ;
     echo "<li>" . $lastName . "</li>" ;
     echo "<li>" . $fullName . "</li>" ;
+    echo "$test kas interpolatsioon töötab";
 ?>
 </ul>
 
