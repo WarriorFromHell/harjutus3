@@ -46,6 +46,9 @@ charset=utf-8">
 
     $test = "testimine";
 
+    $age = "20";
+echo "Ma olen $age-e aastane";
+
     echo "<li>" . $student1 . "</li>" ;
     echo "<li>" . $student2 . "</li>" ;
     echo "<li>" . $student3 . "</li>" ;
