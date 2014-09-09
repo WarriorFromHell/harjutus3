@@ -60,6 +60,47 @@ echo "Ma olen $age-e aastane";
 ?>
 </ul>
 
+<h2> TÄisarvud </h2>
+
+<?php
+$muutuja1 = "2";
+$muutuja2 = "3";
+
+echo $muutuja1 * $muutuja2;
+?>
+
+<br>
+
+<?php abs(-300) ?>
+<br>
+
+<?php
+    // Viis ruudus:
+    echo pow(5, 2);
+
+    // Seitse kuubis:
+    echo pow(7, 3);
+
+    // Kolm astmel seitse:
+    echo pow(3, 7);
+?> <br>
+
+<?php
+    // Ruutjuur 25-st:
+    echo sqrt(25);
+?>
+
+<br>
+
+<?php
+    // Suvaline number
+    echo rand();
+
+    // Suvaline number vahemikus 7 - 22:
+    echo rand(7, 22);
+?>
+<br>
+
 
 </body>
 </html>
