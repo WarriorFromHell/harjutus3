@@ -42,6 +42,7 @@ charset=utf-8">
     $student4 = "Ingrid";
     $firstName = "Markus";
     $lastName = "J6emets";
+    $fullName = $firstName . " " . $lastName;
 
     echo "<li>" . $student1 . "</li>" ;
     echo "<li>" . $student2 . "</li>" ;
@@ -49,6 +50,7 @@ charset=utf-8">
     echo "<li>" . $student4 . "</li>" ;
     echo "<li>" . $firstName . "</li>" ;
     echo "<li>" . $lastName . "</li>" ;
+    echo "<li>" . $fullName . "</li>" ;
 ?>
 </ul>
 
