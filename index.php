@@ -32,6 +32,25 @@ charset=utf-8">
     echo $variable;
 ?>
 
+<h2> Nimekirja väljastamine muutujate ja ssstringide abil </h2>
+
+<ul>
+<?php
+    $student1 = "Mihkel";
+    $student2 = "Heiko";
+    $student3 = "Marko";
+    $student4 = "Ingrid";
+    $firstName = "Markus";
+    $lastName = "J6emets";
+
+    echo "<li>" . $student1 . "</li>" ;
+    echo "<li>" . $student2 . "</li>" ;
+    echo "<li>" . $student3 . "</li>" ;
+    echo "<li>" . $student4 . "</li>" ;
+    echo "<li>" . $firstName . "</li>" ;
+    echo "<li>" . $lastName . "</li>" ;
+?>
+</ul>
 
 
 </body>
