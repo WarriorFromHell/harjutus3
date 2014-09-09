@@ -7,6 +7,7 @@ charset=utf-8">
 </head>
 <body>
 <h1> Muutujad </h1>
+
 <?php
     $variable = 5;
     echo $variable;
@@ -17,7 +18,19 @@ charset=utf-8">
     $variable = 10;
     echo $variable;
 ?>
-
+<h1> Stringid </h1>
+<?php echo "Hello world!"; ?>
+<br>
+<?php echo 'Hello world!'; ?>
+<br>
+<?php
+    $variable = 24;
+    echo $variable;
+?>
+<?php
+    $variable = 26;
+    echo $variable;
+?>
 
 
 
